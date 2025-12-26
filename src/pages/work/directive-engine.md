@@ -9,7 +9,7 @@ description: "Align reality to intent → generate installer-ready directives."
 
 - Demo video (60–90s): **(add link)**
 - Repo: **(add link)**
-- Contact: **you@domain.com**
+- Contact: **barnes.ngb@gmail.com**
 
 ---
 

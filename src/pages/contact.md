@@ -6,9 +6,9 @@ description: "Get in touch."
 
 # Contact
 
-Email: **you@domain.com**  
-LinkedIn: https://www.linkedin.com/in/your-handle/  
-GitHub: https://github.com/your-handle
+Email: **barnes.ngb@gmail.com**  
+LinkedIn: https://www.linkedin.com/in/barnesngb/  
+GitHub: https://github.com/barnes-ngb
 
 ---
 

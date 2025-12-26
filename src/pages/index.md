@@ -4,7 +4,7 @@ title: "Home"
 description: "Directive engines that turn as-built deltas into installer-ready steps."
 ---
 
-# Your Name
+# Nathan
 ## Directive Engine: as-built deltas → installer-ready steps
 
 I build tools that turn **as-built reality** (scan / field capture) into **clear, step-by-step installer directives**:
@@ -25,6 +25,6 @@ I build tools that turn **as-built reality** (scan / field capture) into **clear
 This spring I’m shipping a **Directive Engine** demo that bridges the gap between detection (reality capture) and execution (field crews).
 
 ## Contact
-- Email: **you@domain.com**
-- LinkedIn: **https://www.linkedin.com/in/your-handle/**
-- GitHub: **https://github.com/your-handle**
+- Email: **barnes.ngb@gmail.com**
+- LinkedIn: **https://www.linkedin.com/in/barnesngb/**
+- GitHub: **https://github.com/barnes-ngb**
