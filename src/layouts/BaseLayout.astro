@@ -1,0 +1,47 @@
+---
+const { title, description } = Astro.props;
+
+const pageTitle = title ? `${title} — Your Name` : "Your Name";
+const pageDescription = description ?? "Portfolio";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={pageDescription} />
+    <link rel="stylesheet" href="/styles/global.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <div class="left">
+          <a href="/">Your Name</a>
+          <span class="muted">Directive Engine / Geometry / Field Tools</span>
+        </div>
+        <nav class="right">
+          <a href="/work/">Work</a>
+          <a href="/about/">About</a>
+          <a href="/contact/">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div class="container muted" style="display:flex; justify-content:space-between; gap:1rem; flex-wrap:wrap;">
+        <span>© {new Date().getFullYear()} Your Name</span>
+        <span>
+          <a class="chip" href="https://github.com/your-handle">GitHub</a>
+          <a class="chip" href="https://www.linkedin.com/in/your-handle/">LinkedIn</a>
+          <a class="chip" href="mailto:you@domain.com">you@domain.com</a>
+        </span>
+      </div>
+    </footer>
+  </body>
+</html>
