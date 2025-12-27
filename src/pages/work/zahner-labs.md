@@ -11,7 +11,24 @@ This portfolio page is intentionally **link-out only** (no copied images), and f
 
 > Replace the “My contributions” bullets below with what you’re comfortable sharing publicly.
 
+
 ---
+
+### Throughline
+
+Across these Labs projects, the pattern is consistent:
+
+**Measure → Reconcile → Act → Verify**
+
+- **Measure:** capture as-built conditions (survey / scan)
+- **Reconcile:** compare to a nominal model using local coordinate systems and tolerances
+- **Act:** communicate corrections in a form the field can execute
+- **Verify:** confirm closure to tolerance
+
+SurveyLink is publicly described as a real-time link between as-designed models and as-built field data, surfacing deviations for instant feedback. Labs Report 003 describes the bridge between digital and physical as combining capture, tolerance reconciliation, and on-site tools to drive parts toward their modeled position.
+
+Directive Engine is a focused continuation: turning reconciliation output into constrained, step-by-step installer directives plus a verification loop.
+
 
 ## Labs projects (public links)
 
@@ -76,3 +93,5 @@ This portfolio page is intentionally **link-out only** (no copied images), and f
 ## Notes on rights / credits
 Images and project photography on the referenced pages are credited to their respective owners.
 If you later obtain permission to reuse any images, add an “Image credits” section to each page and follow the requested attribution language.
+
+
