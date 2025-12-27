@@ -4,6 +4,7 @@ A minimal, content-first portfolio site intended for:
 - a flagship demo/project page
 - a “Public references” section for employer work (linking out, not copying assets)
 - fast deployment (Vercel / Netlify / GitHub Pages)
+bump
 
 ## Prereqs
 - Node.js 18+ recommended
