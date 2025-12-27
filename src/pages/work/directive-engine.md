@@ -9,7 +9,10 @@ description: "Align reality to intent → generate installer-ready directives."
 
 [directive-engine](https://directive-engine.vercel.app/)
 
+![Directive Engine Screenshot](../../public/images/Directive-Engine.png)
+
 - Demo video (60–90s): **(add link)**
+
 - Repo: **(add link)**
 - Contact: **barnes.ngb@gmail.com**
 
