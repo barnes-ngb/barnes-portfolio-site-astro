@@ -7,6 +7,8 @@ description: "Align reality to intent → generate installer-ready directives."
 # Directive Engine
 **One-liner:** Convert nominal ↔ as-built deltas into **installer-ready directive cards** (move/rotate/index), with visualization and verification.
 
+[directive-engine](https://directive-engine.vercel.app/)
+
 - Demo video (60–90s): **(add link)**
 - Repo: **(add link)**
 - Contact: **barnes.ngb@gmail.com**
