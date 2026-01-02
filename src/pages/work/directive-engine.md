@@ -11,10 +11,7 @@ description: "Align reality to intent → generate installer-ready directives."
 
 ![Directive Engine Screenshot](/images/Directive-Engine.png)
 
-- Demo video (60–90s): **(add link)**
-
-- Repo: **(add link)**
-- Contact: **barnes.ngb@gmail.com**
+- Contact: [barnes.ngb@gmail.com](mailto:barnes.ngb@gmail.com)
 
 ---
 
