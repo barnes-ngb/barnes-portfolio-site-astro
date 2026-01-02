@@ -1,30 +1,49 @@
 ---
 layout: ../layouts/BaseLayout.astro
 title: "Home"
-description: "Directive engines that turn as-built deltas into installer-ready steps."
+description: "Building instruments that turn as-built reality into installer-ready directives with visualization and verification."
 ---
 
-# Nathan
-## Directive Engine: as-built deltas → installer-ready steps
+# Nathan Barnes
 
-I build tools that turn **as-built reality** (scan / field capture) into **clear, step-by-step installer directives**:
-**move / rotate / index**, with visualization and a verification loop.
+I build **instruments for physical work** — tools that turn messy field reality into clear, executable decisions.
 
-- **Flagship:** [Directive Engine](/work/directive-engine/)
-- **Public references:** [Zahner Labs work](/work/zahner-labs/) + [Project engineering](/work/amherst-science-center/) / [Mexican Museum](/work/the-mexican-museum/)
-- **Open-source:** [patina-model](/work/patina-model/)
+The hardest part of installing complex assemblies isn't detecting that something is off — it's expressing the correction in a format that's unambiguous, constrained by what's allowed, and verifiable after adjustment.
 
 ---
 
-## What I build
-- **Directive generation**: convert nominal ↔ as-built deltas into actionable steps (constraints + tolerances).
-- **3D visualization**: web-based viewers that make adjustments legible and auditable.
-- **Verification loop**: “before/after” deviation checks so teams can close the gap with confidence.
+## Featured Work
 
-## Current focus
-This spring I’m shipping a **Directive Engine** demo that bridges the gap between detection (reality capture) and execution (field crews).
+<div class="project-card">
 
-## Contact
-- Email: **barnes.ngb@gmail.com**
-- LinkedIn: **https://www.linkedin.com/in/barnesngb/**
-- GitHub: **https://github.com/barnes-ngb**
+### [Directive Engine](/work/directive-engine/)
+
+Convert nominal ↔ as-built deltas into **installer-ready directive cards** (move / rotate / index), with 3D visualization and verification loops.
+
+[View project →](/work/directive-engine/)
+
+</div>
+
+## What I Build
+
+**Directive generation** — Actionable correction steps with constraints and tolerances
+
+**3D visualization** — Web-based viewers that make adjustments legible and auditable
+
+**Verification loops** — Before/after deviation checks so teams close the gap with confidence
+
+---
+
+## Experience
+
+Background in **architectural fabrication** at Zahner, building geometry pipelines, deviation analysis tools, and installer-facing interfaces for complex metal projects.
+
+[See all work →](/work/) · [About me →](/about/)
+
+---
+
+## Get in Touch
+
+Building something that needs to bridge design intent and field reality?
+
+[barnes.ngb@gmail.com](mailto:barnes.ngb@gmail.com) · [LinkedIn](https://www.linkedin.com/in/barnesngb/) · [GitHub](https://github.com/barnes-ngb)

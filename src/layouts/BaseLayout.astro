@@ -1,8 +1,10 @@
 ---
-const { title, description } = Astro.props;
+const { title, description, image } = Astro.props;
 
-const pageTitle = title ? `${title} — Nathan` : "Nathan";
-const pageDescription = description ?? "Portfolio";
+const pageTitle = title ? `${title} — Nathan Barnes` : "Nathan Barnes";
+const pageDescription = description ?? "Building instruments that turn as-built reality into installer-ready directives.";
+const ogImage = image ?? "/images/og-default.png";
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 
 <!doctype html>
@@ -12,14 +14,29 @@ const pageDescription = description ?? "Portfolio";
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>{pageTitle}</title>
     <meta name="description" content={pageDescription} />
+    <link rel="canonical" href={canonicalURL} />
+
+    <!-- Open Graph / Social -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={pageDescription} />
+    <meta property="og:image" content={new URL(ogImage, Astro.site)} />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={pageDescription} />
+    <meta name="twitter:image" content={new URL(ogImage, Astro.site)} />
+
     <link rel="stylesheet" href="/styles/global.css" />
   </head>
   <body>
     <header class="site-header">
       <div class="container nav">
         <div class="left">
-          <a href="/">Nathan</a>
-          <span class="muted">Directive Engine / Geometry / Field Tools</span>
+          <a href="/">Nathan Barnes</a>
+          <span class="muted tagline">Directive Engine / Geometry / Field Tools</span>
         </div>
         <nav class="right">
           <a href="/work/">Work</a>
@@ -35,7 +52,7 @@ const pageDescription = description ?? "Portfolio";
 
     <footer class="site-footer">
       <div class="container muted" style="display:flex; justify-content:space-between; gap:1rem; flex-wrap:wrap;">
-        <span>© {new Date().getFullYear()} Nathan</span>
+        <span>© {new Date().getFullYear()} Nathan Barnes</span>
         <span>
           <a class="chip" href="https://github.com/barnes-ngb">GitHub</a>
           <a class="chip" href="https://www.linkedin.com/in/barnesngb/">LinkedIn</a>
