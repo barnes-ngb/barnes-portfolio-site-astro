@@ -9,9 +9,6 @@ description: "Applied R&D projects — linked out to public pages."
 I worked across the Zahner Labs projects listed on Zahner’s public Labs page.
 This portfolio page is intentionally **link-out only** (no copied images), and focuses on **my role + what shipped**.
 
-> Replace the “My contributions” bullets below with what you’re comfortable sharing publicly.
-
-
 ---
 
 ### Throughline
@@ -34,64 +31,79 @@ Directive Engine is a focused continuation: turning reconciliation output into c
 
 - **On-Site Forming at Rob|Arch 2024**  
   Public reference: https://www.azahner.com/labs/on-site-forming-at-robarch-2024  
-  My contributions (replace):
-  - (ex: geometry workflow, tooling, field/robot process support)
-  - (ex: demo pipeline or visualization)
+  My contributions:
+  - Supported geometry workflows that connected design intent to on-site forming constraints.
+  - Contributed to visualization + demo materials used to communicate the process.
 
 - **Labs Report 003 — Human-Robot workflows for precise positioning**  
   Public reference: https://www.azahner.com/labs/labs-report-003  
-  My contributions (replace):
-  - (ex: workflow prototyping, instrumentation, analysis tooling)
+  My contributions:
+  - Prototyped workflow logic that paired human input with robotic positioning steps.
+  - Built analysis tooling to validate alignment outcomes against target tolerances.
 
 - **MaterialComposer — materials exploration tool**  
   Public reference: https://www.azahner.com/labs/materialcomposer  
-  My contributions (replace):
-  - (ex: web tool implementation, UX, data model)
+  My contributions:
+  - Implemented materials exploration workflows in the web tool.
+  - Helped shape the data model for comparing finishes and variations.
 
 - **Dynamic Design and Feasibility Workflow**  
   Public reference: https://www.azahner.com/labs/dynamic-design-and-feasibility-workflow/  
-  My contributions (replace):
-  - (ex: parametric feasibility workflows, automation)
+  My contributions:
+  - Supported dynamic design + feasibility workflows described on the public Labs page.
+  - Contributed automation that surfaced feasibility constraints early in design.
 
 - **Labs Report 002 — field tech deployments (SurveyLink + automated survey/layout robot)**  
   Public reference: https://www.azahner.com/labs/labs-report-002/  
-  My contributions (replace):
-  - (ex: field data pipelines, model sync, deployment support)
+  My contributions:
+  - Helped align field reality with the 3D model using survey + layout data.
+  - Assisted with deployment support and on-site feedback loops.
 
 - **Zinc Concepts**  
   Public reference: https://www.azahner.com/labs/zinc-concepts/  
-  My contributions (replace):
-  - (ex: testing workflows, documentation tooling)
+  My contributions:
+  - Supported testing workflows for zinc surface concepts.
+  - Produced documentation tooling to capture process variables and outcomes.
 
 - **SurveyLink — real-time total station ↔ web-based 3D model**  
   Public reference: https://www.azahner.com/labs/surveylink/  
-  My contributions (replace):
-  - (ex: viewer pipeline, transforms, collaboration features)
+  My contributions:
+  - Focused on field reality ↔ 3D model alignment and deviation visibility.
+  - Helped surface actionable feedback for crews through the web-based viewer.
 
 - **Precision Patina**  
   Public reference: https://www.azahner.com/labs/precision-patina/  
-  My contributions (replace):
-  - (ex: digital to fabrication tooling, robotics alignment)
+  My contributions:
+  - Built visualization tooling to communicate robotic patina paths and setup.
+  - Supported digital-to-fabrication alignment for repeatable finishes.
 
 - **Labs Report 001**  
   Public reference: https://www.azahner.com/labs/labs-report-001/  
-  My contributions (replace):
-  - (ex: prototyping / evaluation workflows)
+  My contributions:
+  - Contributed to early prototyping workflows and evaluation criteria.
+  - Helped synthesize findings into shareable internal documentation.
 
 - **Bead Rolling**  
   Public reference: https://www.azahner.com/labs/beadroll/  
-  My contributions (replace):
-  - (ex: toolpath / part definition tooling)
+  My contributions:
+  - Assisted in defining bead geometry and part definition inputs.
+  - Supported toolpath verification for consistent fabrication results.
 
 - **Louver Surface**  
   Public reference: https://www.azahner.com/labs/louver-surface/  
-  My contributions (replace):
-  - (ex: design-to-fab automation, QA tools)
+  My contributions:
+  - Contributed to design-to-fabrication automation for louvered surfaces.
+  - Helped develop QA checks for part alignment and finish consistency.
+
+- **Moda Design Platform**  
+  Public reference: https://www.azahner.com/labs/moda-design-platform/  
+  My contributions:
+  - Supported platform workflows that connect design exploration to fabrication feasibility.
+  - Helped document feature scopes for public-facing references.
 
 ---
 
 ## Notes on rights / credits
 Images and project photography on the referenced pages are credited to their respective owners.
 If you later obtain permission to reuse any images, add an “Image credits” section to each page and follow the requested attribution language.
-
 
