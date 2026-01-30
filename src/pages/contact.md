@@ -24,6 +24,7 @@ description: "Get in touch — feedback on directive formats, VDC workflows, or 
   <div class="callout__content">
     <div class="callout__title">Looking for Field Feedback</div>
     <p style="margin-bottom: 0;">If you're in VDC, reality capture, or field installation workflows and willing to test directive formats, I'd appreciate a 15-minute sanity check. Especially interested in:</p>
+    <p style="margin-bottom: 0.75rem;">Priority outreach: VDC, digital fabrication, reality capture, design-to-fab platforms, and configuration/quote flows.</p>
   </div>
 </div>
 
