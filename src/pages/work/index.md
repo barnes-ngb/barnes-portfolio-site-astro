@@ -17,7 +17,7 @@ A selection of calibrated tools spanning directive systems, geometry pipelines, 
 
 ---
 
-## Flagship Instrument
+## Flagship: Directive Engine
 
 <a href="/work/directive-engine/" class="project-card">
   <div class="project-card__meta">
@@ -33,41 +33,51 @@ A selection of calibrated tools spanning directive systems, geometry pipelines, 
   <a href="/work/directive-engine/" class="artifact-link">Full Case Study →</a>
 </div>
 
-<div class="divider"><span class="divider__label">Field Instruments</span></div>
+<div class="divider"><span class="divider__label">Design Platforms</span></div>
 
-## Professional Experience
+## Design Platforms: Moda Design Platform
 
-Instruments built at **Zahner** — an architectural metals company known for complex facades and sculptural metalwork. Pages link to public references without re-hosting employer assets.
-
-<a href="/work/zahner-labs/" class="project-card">
+<a href="https://azahner.com/moda-design-tool/" class="project-card">
   <div class="project-card__meta">
-    <span class="chip chip--clamped">R&D</span>
+    <span class="chip">CONFIGURATOR</span>
+    <span class="chip">DESIGN SYSTEM</span>
+  </div>
+  <h3>Moda Design Platform</h3>
+  <p>Interactive design platform for exploring configurable facade patterns, finishes, and fabrication-ready options. Built to align design intent with manufacturable outputs.</p>
+</a>
+
+<div class="artifact-bar">
+  <a href="/work/moda-design-platform/" class="artifact-link">Internal Case Study →</a>
+</div>
+
+<div class="divider"><span class="divider__label">Fabricator API / Feasibility</span></div>
+
+## Fabricator API / Feasibility: Grasshopper tooling
+
+<a href="/work/fabricator-api/" class="project-card">
+  <div class="project-card__meta">
+    <span class="chip">GRASSHOPPER</span>
+    <span class="chip chip--clamped">SUMMARY ONLY</span>
+  </div>
+  <h3>Fabricator API</h3>
+  <p>Parametric feasibility tooling that evaluates panelization, tolerances, and fabrication constraints directly in design workflows. Summary-only listing until a public reference is available.</p>
+</a>
+
+<div class="divider"><span class="divider__label">Public References (Employer Work)</span></div>
+
+## Public references (employer work): Zahner Labs
+
+<a href="https://www.azahner.com/labs/" class="project-card">
+  <div class="project-card__meta">
+    <span class="chip chip--clamped">LINK-OUT ONLY</span>
   </div>
   <h3>Zahner Labs</h3>
-  <p>Applied R&D instruments including SurveyLink (field-to-model alignment), MaterialComposer (finish specification), and geometry pipeline tools.</p>
-</a>
-
-<a href="/work/amherst-science-center/" class="project-card">
-  <div class="project-card__meta">
-    <span class="chip">FACADE</span>
-    <span class="chip">TOLERANCE ANALYSIS</span>
-  </div>
-  <h3>Amherst College Science Center</h3>
-  <p>Project engineering for a perforated metal facade system — coordination, tolerances, and installation sequencing.</p>
-</a>
-
-<a href="/work/the-mexican-museum/" class="project-card">
-  <div class="project-card__meta">
-    <span class="chip">SCULPTURAL</span>
-    <span class="chip">GEOMETRIC CONTROL</span>
-  </div>
-  <h3>The Mexican Museum</h3>
-  <p>Complex sculptural facade requiring tight geometric control and multi-trade coordination.</p>
+  <p>Public R&amp;D references hosted by Zahner. This catalog links out to employer-owned sources without reproducing assets.</p>
 </a>
 
 <div class="divider"><span class="divider__label">Open Source</span></div>
 
-## Published Instruments
+## Open-source
 
 <a href="/work/patina-model/" class="project-card">
   <div class="project-card__meta">
