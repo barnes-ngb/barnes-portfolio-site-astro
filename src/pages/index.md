@@ -73,6 +73,24 @@ The hardest part of installing complex assemblies isn't detecting that something
   <p class="directive-card__action">Before/after deviation checks so teams close the gap with confidence.</p>
 </div>
 
+<div class="directive-card">
+  <h4 class="directive-card__title">Customer-facing Design Platforms</h4>
+  <div class="directive-card__constraints">
+    <span class="chip">MODA</span>
+  </div>
+  <p class="directive-card__action">3D selection and quote-entry instruments that turn customer intent into spec-ready configurations without handoffs. Built to collapse the gap from “I want this” to “here’s the exact build + price.”</p>
+  <a href="/work/moda-design-platform/" class="artifact-link">Case Study →</a>
+</div>
+
+<div class="directive-card">
+  <h4 class="directive-card__title">Fabricator API / Feasibility Bumpers</h4>
+  <div class="directive-card__constraints">
+    <span class="chip">GRASSHOPPER</span>
+  </div>
+  <p class="directive-card__action">Fabrication-aware bumpers embedded in the designer workflow, flagging infeasible geometry and rerouting choices before downstream rework. Keeps exploration open while enforcing what can actually be built.</p>
+  <a href="/work/fabricator-api/" class="artifact-link">Case Study →</a>
+</div>
+
 ---
 
 ## Calibration Background
