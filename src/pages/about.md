@@ -8,6 +8,8 @@ description: "Software engineer building calibrated instruments for architectura
 
 I build **instruments**, not apps — calibrated tools that turn messy physical reality into clear, executable decisions.
 
+Feasibility bumpers define the mechanical and procedural constraints, the design platform encodes those limits into parametric controls, and the field verification loop closes the circuit with measured deltas that recalibrate the next directive.
+
 <div class="metric-grid">
   <div class="metric-card">
     <span class="metric-card__label">Domain</span>
