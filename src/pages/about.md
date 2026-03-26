@@ -6,37 +6,15 @@ description: "Software engineer building calibrated instruments for architectura
 
 # About
 
-I build **instruments**, not apps — calibrated tools that turn messy physical reality into clear, executable decisions.
+## Who I am
 
-Feasibility bumpers define the mechanical and procedural constraints, the design platform encodes those limits into parametric controls, and the field verification loop closes the circuit with measured deltas that recalibrate the next directive.
+I've spent the last decade at [A. Zahner Company](https://www.azahner.com/) — one of the most technically demanding architectural metal fabricators in the country — building the software layer between design models and the shop floor.
 
-<div class="metric-grid">
-  <div class="metric-card">
-    <span class="metric-card__label">Domain</span>
-    <span class="metric-card__value">AEC / Fabrication</span>
-  </div>
-  <div class="metric-card">
-    <span class="metric-card__label">Focus</span>
-    <span class="metric-card__value">Field Execution</span>
-  </div>
-  <div class="metric-card">
-    <span class="metric-card__label">Tolerance</span>
-    <span class="metric-card__value">&lt; 5mm</span>
-  </div>
-</div>
+I started as a project engineer managing $2–10M metal facade installations, translating architectural intent into fabrication instructions while standing between architects, CNC operators, and field crews. I kept running into the same problem: the gap between what was designed and what could actually be built was filled with spreadsheets, tribal knowledge, and manual translation.
 
----
+So I started building tools to close that gap. A CNC automation platform adopted by 30+ engineers. A customer-facing 3D configurator. A real-time field verification system I personally deployed on-site. Fabrication constraint APIs that catch infeasible geometry before it reaches the shop.
 
-## Calibration Background
-
-I've spent years at the intersection of **fabrication, geometry, and software** — working on complex architectural metal projects where millimeters matter and field conditions never match the model.
-
-<div class="callout callout--info">
-  <span class="callout__icon">🏗</span>
-  <div class="callout__content">
-    <strong>Field-tested at Zahner</strong> — Built internal tools that bridge design intent and field reality: geometry pipelines, deviation analysis, and installer-facing interfaces. Learned that detection is easy; expressing corrections field crews can execute is hard.
-  </div>
-</div>
+I call these tools **instruments** — because like a good measuring instrument, they're precise, reliable, and transparent about what they're measuring. The philosophy below explains how I think about building them.
 
 ---
 
@@ -104,6 +82,16 @@ Building the **Directive Engine**: a system that converts nominal ↔ as-built d
   <a href="/demo/" class="btn btn--primary">Try the Demo</a>
   <a href="/work/directive-engine/" class="artifact-link">Case Study →</a>
 </div>
+
+---
+
+## What I'm looking for
+
+I'm exploring roles at the intersection of design, fabrication, and software — particularly at early-stage companies in AEC-prefab, modular construction, or manufacturing automation where my combination of architecture training, fabrication floor experience, and full-stack engineering creates real leverage.
+
+I'm at my best when I'm building systems that other people can use repeatedly, working close to the physical problem, and helping grow the people around me.
+
+[Resume (PDF) →](/resume.pdf) · [LinkedIn →](https://linkedin.com/in/barnesngb) · [Email →](mailto:barnes.ngb@gmail.com)
 
 ---
 
