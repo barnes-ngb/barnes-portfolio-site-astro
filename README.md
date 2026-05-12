@@ -39,3 +39,7 @@ See `src/pages/work/zahner-labs.md` for the pattern.
 
 ---
 Astro dependency pinned to: `^5.16.6` (update anytime).
+
+## License
+
+[MIT](LICENSE)
