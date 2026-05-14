@@ -219,6 +219,32 @@ The live demo walks through the loop in five beats — detection, constraint, di
 
 ---
 
+## Run it on your own scan
+
+The repository ships with a small CLI that runs the engine against a real point cloud. It accepts an ASCII PLY or XYZ scan plus a nominal-parts JSON describing the part geometries, then prints the resulting directives in human-readable form to the console. The committed example files in `examples/` make this reproducible without any setup beyond cloning, and the end-to-end test suite exercises the same path against those files.
+
+```bash
+git clone https://github.com/barnes-ngb/directive-engine
+cd directive-engine && npm install
+npx tsx scripts/ingest-pointcloud.ts examples/minimal-scan.ply examples/minimal-parts.json
+```
+
+Expected output:
+
+```
+Parsed 20 points from examples/minimal-scan.ply
+  P-01: t=[0.03, 500.00, 0.00]mm  confidence=70.0%
+  P-02: t=[506.00, 500.00, 0.00]mm  confidence=70.0%
+  P-01: No adjustment required (within tolerance). Status: ok. Tolerance: ±5.0mm.
+  P-02: Translate -6.0mm along part-frame X. Status: pending. Tolerance: ±5.0mm.
+```
+
+Same primitives the demo uses, different input format.
+
+An in-browser interactive version is a planned next iteration; the CLI is the present way to verify the engine works on real input.
+
+---
+
 ## Limits + Next Steps
 
 <div class="callout callout--info">
