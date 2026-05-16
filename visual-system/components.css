@@ -1,0 +1,419 @@
+/* ============================================================
+   SystemsForge — Components
+   Visual patterns built on tokens.css.
+   See VISUAL_SYSTEM.md for HTML usage examples.
+   ============================================================ */
+
+/* ============================================================
+   Page container — wrap every page in this
+   ============================================================ */
+
+.page {
+  max-width: var(--content-max);
+  margin: 0 auto;
+  padding: var(--space-6) var(--page-pad-x) var(--space-7);
+}
+
+/* ============================================================
+   Site nav (top strip)
+   ============================================================ */
+
+.site-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: var(--space-4);
+  border-bottom: var(--border-thin) solid var(--border);
+  margin-bottom: var(--space-5);
+}
+
+.site-nav__brand {
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  letter-spacing: var(--tracking-wide);
+}
+
+.site-nav__brand-name {
+  color: var(--ink);
+  font-weight: 500;
+}
+
+.site-nav__brand-tag {
+  color: var(--ink-secondary);
+  margin-left: var(--space-2);
+}
+
+.site-nav__links {
+  display: flex;
+  gap: var(--space-4);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: var(--tracking-wide);
+}
+
+.site-nav__links a {
+  color: var(--ink-secondary);
+  border-bottom: none;
+}
+
+.site-nav__links a[aria-current="page"] {
+  color: var(--ink);
+  font-weight: 500;
+}
+
+.site-nav__links a:hover {
+  color: var(--ink);
+}
+
+/* ============================================================
+   Title block — mono strip at top of every page
+   ============================================================ */
+
+.title-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: var(--space-3);
+  border-bottom: var(--border-thin) solid var(--border);
+  margin-bottom: var(--space-4);
+}
+
+.title-block__id {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: var(--tracking-widest);
+  color: var(--ink-tertiary);
+}
+
+/* ============================================================
+   Status chip — one component, semantic variants
+   ============================================================ */
+
+.status-chip {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: var(--tracking-wide);
+  padding: 2px 7px;
+  border-radius: var(--radius-sm);
+  border: var(--border-thin) solid currentColor;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.status-chip--deployed  { color: var(--accent); }
+.status-chip--in-review { color: var(--status-info); }
+.status-chip--prototype { color: var(--status-info); }
+.status-chip--pending   { color: var(--status-warning); }
+.status-chip--research  { color: var(--ink-tertiary); border-color: var(--border-strong); }
+.status-chip--archived  { color: var(--ink-tertiary); border-color: var(--border-strong); }
+.status-chip--blocked   { color: var(--status-danger); }
+
+/* ============================================================
+   Metadata strip — mono row of label/value pairs
+   ============================================================ */
+
+.metadata-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-5);
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  color: var(--ink-secondary);
+  padding: var(--space-3) 0;
+  border-top: var(--border-thin) solid var(--border);
+  border-bottom: var(--border-thin) solid var(--border);
+}
+
+.metadata-strip__label {
+  color: var(--ink-tertiary);
+}
+
+/* ============================================================
+   Page header — H1 + subtitle
+   ============================================================ */
+
+.page-header {
+  margin-bottom: var(--space-4);
+}
+
+.page-header__title {
+  font-size: var(--text-2xl);
+  font-weight: 500;
+  line-height: var(--lh-tight);
+  margin-bottom: var(--space-2);
+}
+
+.page-header__subtitle {
+  font-size: var(--text-md);
+  color: var(--ink-secondary);
+  line-height: var(--lh-normal);
+  max-width: 56ch;
+}
+
+/* ============================================================
+   Section header — numbered prefix + H2
+   ============================================================ */
+
+.section-header {
+  margin-top: var(--space-6);
+  margin-bottom: var(--space-3);
+}
+
+.section-header__index {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: var(--tracking-wider);
+  color: var(--ink-tertiary);
+  margin-bottom: var(--space-1);
+}
+
+.section-header h2 {
+  font-size: var(--text-xl);
+  font-weight: 500;
+  line-height: var(--lh-snug);
+}
+
+/* ============================================================
+   Figure — wraps any visual artifact (svg, img, embed)
+   ============================================================ */
+
+.figure {
+  margin: var(--space-3) 0 var(--space-6);
+  background: var(--surface);
+  border: var(--border-thin) solid var(--border);
+  border-radius: var(--radius-md);
+  padding: var(--space-5) var(--space-4) var(--space-3);
+}
+
+.figure > svg,
+.figure > img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.figure__caption {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--ink-tertiary);
+  letter-spacing: var(--tracking-wide);
+  margin-top: var(--space-3);
+  padding-top: var(--space-2);
+  border-top: var(--border-thin) solid var(--border);
+}
+
+/* ============================================================
+   Catalog row — repeating row in the work index
+   ============================================================ */
+
+.catalog-group-label {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: var(--tracking-wider);
+  color: var(--ink-tertiary);
+  margin-top: var(--space-6);
+  margin-bottom: var(--space-1);
+}
+
+.catalog-row {
+  border-top: var(--border-thin) solid var(--border);
+  padding: var(--space-3) 0;
+  display: grid;
+  grid-template-columns: 32px minmax(0, 1fr) 115px;
+  gap: var(--space-3);
+  align-items: center;
+  transition: background-color 120ms ease;
+}
+
+.catalog-row:hover {
+  background: var(--accent-soft);
+}
+
+.catalog-row:last-child {
+  border-bottom: var(--border-thin) solid var(--border);
+}
+
+.catalog-row__index {
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  color: var(--ink-tertiary);
+  letter-spacing: var(--tracking-wide);
+}
+
+.catalog-row__body { min-width: 0; }
+
+.catalog-row__title {
+  font-size: var(--text-md);
+  font-weight: 500;
+  line-height: var(--lh-snug);
+}
+
+.catalog-row__subtitle {
+  font-size: var(--text-sm);
+  color: var(--ink-secondary);
+  margin-top: 3px;
+  line-height: var(--lh-snug);
+}
+
+.catalog-row__meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 5px;
+}
+
+.catalog-row__year {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--ink-tertiary);
+}
+
+/* ============================================================
+   Directive card — example artifact treatment.
+   Use this pattern for any "this is what the tool outputs"
+   visual: directive cards, toolpath snippets, JSON fragments.
+   ============================================================ */
+
+.artifact-card {
+  background: var(--surface);
+  border: var(--border-thin) solid var(--border);
+  border-radius: var(--radius-md);
+  padding: var(--space-3) var(--space-4);
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  line-height: 1.85;
+}
+
+.artifact-card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: var(--space-2);
+  border-bottom: var(--border-thin) solid var(--border);
+  margin-bottom: var(--space-2);
+}
+
+.artifact-card__id {
+  color: var(--ink);
+  font-weight: 500;
+}
+
+.artifact-card__field-label {
+  color: var(--ink-tertiary);
+}
+
+/* ============================================================
+   Limits callout — single-sided left border, no rounded corners
+   The trademark "honest scope" surface.
+   ============================================================ */
+
+.limits-callout {
+  background: var(--surface);
+  border: var(--border-thin) solid var(--border);
+  border-left: var(--border-emphasis) solid var(--ink-tertiary);
+  border-radius: 0;
+  padding: var(--space-3) var(--space-4);
+  margin-top: var(--space-3);
+}
+
+.limits-callout__label {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  letter-spacing: var(--tracking-wider);
+  color: var(--ink-tertiary);
+  margin-bottom: var(--space-1);
+}
+
+.limits-callout p {
+  font-size: var(--text-sm);
+  line-height: 1.65;
+  color: var(--ink-secondary);
+}
+
+/* ============================================================
+   Lab entry — two-column research note layout
+   Use on /lab pages only.
+   ============================================================ */
+
+.lab-entry {
+  background: var(--surface);
+  border: var(--border-thin) solid var(--border);
+  border-radius: var(--radius-md);
+  padding: var(--space-5);
+  display: grid;
+  grid-template-columns: 110px minmax(0, 1fr);
+  gap: var(--space-4);
+  margin-bottom: var(--space-5);
+}
+
+.lab-entry__margin {
+  border-right: var(--border-thin) solid var(--border);
+  padding-right: var(--space-3);
+}
+
+.lab-entry__date,
+.lab-entry__id {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--ink-tertiary);
+  letter-spacing: var(--tracking-wide);
+}
+
+.lab-entry__id { margin-top: 2px; }
+
+.lab-entry__project {
+  margin-top: var(--space-3);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--accent);
+  letter-spacing: var(--tracking-wide);
+}
+
+.lab-entry__body h3 {
+  font-family: var(--font-serif);
+  font-size: var(--text-lg);
+  font-weight: 500;
+  line-height: var(--lh-snug);
+  margin-bottom: var(--space-2);
+}
+
+.lab-entry__body p {
+  font-family: var(--font-serif);
+  font-size: var(--text-base);
+  line-height: var(--lh-relaxed);
+  color: var(--ink);
+}
+
+.lab-entry__body p + p { margin-top: var(--space-2); }
+
+/* Stack the lab entry on narrow screens */
+@media (max-width: 560px) {
+  .lab-entry {
+    grid-template-columns: 1fr;
+  }
+  .lab-entry__margin {
+    border-right: none;
+    border-bottom: var(--border-thin) solid var(--border);
+    padding-right: 0;
+    padding-bottom: var(--space-2);
+  }
+}
+
+/* ============================================================
+   Summary strip — used on index pages (catalog count, etc.)
+   ============================================================ */
+
+.summary-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-5);
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  color: var(--ink-secondary);
+  padding-top: var(--space-3);
+  border-top: var(--border-thin) solid var(--border);
+}
+
+.summary-strip__label {
+  color: var(--ink-tertiary);
+}
