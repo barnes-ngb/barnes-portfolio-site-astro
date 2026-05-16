@@ -1,7 +1,8 @@
 ---
 layout: ../../layouts/BaseLayout.astro
 title: "Pixels to atoms: the missing layer in fabrication"
-description: "The model and the field run on different operating systems. The translation layer between them is missing."
+description: "The fabrication industry has spent thirty years building software for design and almost nothing for execution. A look at the missing translation layer."
+image: "/images/writing/csc-anchor-position.jpg"
 pubDate: 2026-05-13
 ---
 

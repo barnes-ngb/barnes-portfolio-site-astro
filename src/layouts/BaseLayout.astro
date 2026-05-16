@@ -1,9 +1,14 @@
 ---
 import '../styles/global.css';
 
-const { title, description, image } = Astro.props;
+const { frontmatter } = Astro.props;
+const title = Astro.props.title ?? frontmatter?.title;
+const description = Astro.props.description ?? frontmatter?.description;
+const image = Astro.props.image ?? frontmatter?.image;
 
-const pageTitle = title ? `${title} — Nathan Barnes` : "Nathan Barnes";
+const pageTitle = title
+  ? (title.includes("Nathan Barnes") ? title : `${title} — Nathan Barnes`)
+  : "Nathan Barnes";
 const pageDescription = description ?? "Building instruments that turn as-built reality into installer-ready directives.";
 const ogImage = image ?? "/images/og-default.png";
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
