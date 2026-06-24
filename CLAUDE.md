@@ -16,7 +16,7 @@ The site is intentionally **track-neutral on its surface** — it doesn't pick A
 
 Vocabulary that fits the thesis: instruments, calibration, constraints, verification, directives, residual, tolerance, fabrication-ready, field reconciliation, design-to-fabrication. Vocabulary that does **not** fit: dashboards, AI-powered, transformative, revolutionary, leverage (as a verb), seamless, robust, world-class.
 
-The home-page subtitle is "Design-to-Fabrication Systems Engineer." Do not change this without explicit instruction.
+The global header tagline (in BaseLayout.astro) is "Systems Engineer · Software for Physical Execution" and renders on every page. It uses a middle dot (·, U+00B7). Do not change it without explicit instruction; it carries the site's positioning.
 
 ## Discretion constraints (hard rules)
 
