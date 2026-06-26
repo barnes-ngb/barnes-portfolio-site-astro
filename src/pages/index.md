@@ -29,7 +29,7 @@ I call these calibrated instruments for physical work. Each turns messy field re
   </div>
 </div>
 
-The hardest part of installing complex assemblies isn't detecting that something is off — it's expressing the correction in a format that's unambiguous, constrained by what's allowed, and verifiable after adjustment.
+The hardest part of installing complex assemblies isn't detecting that something is off. It's expressing the correction in a format that's unambiguous, constrained by what's allowed, and verifiable after adjustment.
 
 ---
 
@@ -42,6 +42,8 @@ The hardest part of installing complex assemblies isn't detecting that something
   <h3>Directive Engine</h3>
   <p>Convert nominal ↔ as-built deltas into installer-ready directive cards (move / rotate / index), with 3D visualization and verification loops.</p>
 </a>
+
+<p>The geometry-to-directive loop is substrate-agnostic. The same spine retargets from architectural installation to manufacturing and aerospace assembly, anywhere a built part has to match its model.</p>
 
 <div class="artifact-bar">
   <a href="/demo/" class="btn btn--primary">Open Live Demo</a>
@@ -80,6 +82,27 @@ The hardest part of installing complex assemblies isn't detecting that something
 </div>
 
 <div class="directive-card">
+  <h4 class="directive-card__title">SurveyLink</h4>
+  <div class="directive-card__constraints">
+    <span class="chip">PEER-REVIEWED</span>
+    <span class="chip">METROLOGY</span>
+  </div>
+  <p class="directive-card__action">Streams total-station data to a web app for real-time field verification and as-built reconciliation. Deployed on-site; peer-reviewed (Taylor &amp; Francis, 2022).</p>
+  <a href="https://www.tandfonline.com/doi/abs/10.1080/24751448.2022.2116230" class="artifact-link" target="_blank" rel="noopener">Paper →</a>
+</div>
+
+<div class="directive-card">
+  <h4 class="directive-card__title">passthrough</h4>
+  <div class="directive-card__constraints">
+    <span class="chip">VALIDATED</span>
+    <span class="chip">OPEN SOURCE</span>
+  </div>
+  <p class="directive-card__action">A reverse-problem instrument: carries a morphed mesh back to an analytic CAD surface, isolating parameterization recovery from representation richness. 123 passing tests, public.</p>
+  <a href="https://github.com/barnes-ngb/passthrough" class="artifact-link" target="_blank" rel="noopener">Repository →</a>
+  <a href="/work/passthrough/" class="artifact-link">Case Study →</a>
+</div>
+
+<div class="directive-card">
   <h4 class="directive-card__title">Customer-facing Design Platforms</h4>
   <div class="directive-card__constraints">
     <span class="chip">MODA</span>
@@ -104,7 +127,7 @@ The hardest part of installing complex assemblies isn't detecting that something
 <div class="callout callout--info">
   <span class="callout__icon">⚙</span>
   <div class="callout__content">
-    <strong>Field-tested at Zahner</strong> — Built geometry pipelines, deviation analysis tools, and installer-facing interfaces for complex metal projects. Work deployed on architectural installations where <code>RMS &lt; 5mm</code> matters.
+    <strong>Field-tested at Zahner.</strong> Built geometry pipelines, deviation analysis, and installer-facing interfaces for complex metal fabrication and installation. Deployed where <code>RMS &lt; 5mm</code> matters.
   </div>
 </div>
 
